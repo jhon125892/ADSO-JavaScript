@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')();
+
 let personas = parseInt(prompt("¿Cuántas personas comerán torta de papa?"));
 
 let papaTotal = personas * 200;
