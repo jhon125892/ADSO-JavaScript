@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <div id="numero1" style="background-color: aqua;"></div>
-    <div id="numero2" style="background-color: beige;"></div>
-    <div id="suma" style="background-color: blueviolet;"></div>
-    <div id="resta" style="background-color: burlywood;"></div>
-    <div id="multiplicacion" style="background-color: coral;"></div>
-    <div id="division" style="background-color: cornflowerblue;"></div>
-
-    
-    <script>
-        
-        const numero1 = parseFloat(prompt("Introduce el numero 1:"));
+const numero1 = parseFloat(prompt("Introduce el numero 1:"));
         const numero2 = parseFloat(prompt("Introduce el numero 2:"));
 
         document.getElementById("numero1").innerText= 'Numero 1: ' + (numero1)
@@ -41,8 +22,3 @@
         console.log("La multiplicación es: " + divison);
             document.getElementById("division").innerHTML='<b>Division: </b> ' + (division)
        // document.write("La división es: " + division);
-
-    </script>
-
-</body>
-</html>
