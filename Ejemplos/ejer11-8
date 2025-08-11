@@ -1,0 +1,5 @@
+// node ejer11-8
+// ejercicio: 
+const prompt = require("prompt-sync")()
+
+
