@@ -1,2 +1,8 @@
+-- COMANDOS ADICIONALES --
+const prompt = require('prompt-sync')();
 
-Actualizado 11 de agosto 2025
+
+
+
+
+Actualizado 1 de septiembre 2025
