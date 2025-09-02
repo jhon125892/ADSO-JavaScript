@@ -1,4 +1,5 @@
-import Alcancia from " ./alcancia.js"
+import alcancia from "./alcancia"
+
 let miAlcancia = null
 
 const crearAlcancia=()=>{
