@@ -25,8 +25,6 @@ class Pedido {
     return total;
   }
 }
-
-
 let p1 = new Producto("Pan", 2000);
 let p2 = new Producto("Leche", 3500);
 
