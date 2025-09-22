@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Tareas</title>
+    <style>
+        .task {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .task-text {
+            flex-grow: 1;
+        }
+        .check-icon {
+            cursor: pointer;
+            color: orange;
+            margin-right: 10px;
+        }
+        .check-icon.completed {
+            color: green;
+        }
+        .delete-icon {
+            cursor: pointer;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gestión de Tareas</h1>
+    <input type="text" id="taskInput" placeholder="Escribe una nueva tarea">
+    <button id="addTaskBtn">Agregar Tarea</button>
+
+    <div id="taskList"></div>
+
+    <script src="/punto6/js6.js"></script>
+</body>
+</html>
