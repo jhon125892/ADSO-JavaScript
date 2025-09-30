@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendices SENA CTPI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="login-container" class="container">
+        <div class="login-form">
+            <h2>Ingreso al Sistema</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Nombre de usuario:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn">Ingresar</button>
+            </form>
+            <p id="error-message" class="error-message"></p>
+        </div>
+    </div>
+
+    <!-- Interfaz principal (oculta inicialmente) -->
+    <div id="main-container" class="container hidden">
+        <header>
+            <h1>Aprendices SENA C.T.P.I</h1>
+            <div class="user-info">
+                <span id="user-display">Usuario: </span>
+                <button id="logout-btn" class="btn btn-secondary">Salir</button>
+            </div>
+        </header>
+
+        <div class="ficha-selection">
+            <label for="ficha-select">Seleccione Código Ficha:</label>
+            <select id="ficha-select">
+                <option value="">Seleccione una opción</option>
+            </select>
+        </div>
+
+        <div id="programa-info" class="programa-info">
+            <h3>Nombre del programa:</h3>
+            <p id="programa-nombre"></p>
+        </div>
+
+        <div class="table-container">
+            <table id="aprendices-table">
+                <thead>
+                    <tr>
+                        <th>Tipo Documento</th>
+                        <th>Número Documento</th>
+                        <th>Nombre</th>
+                        <th>Primer Apellido</th>
+                        <th>Segundo Apellido</th>
+                        <th>Estado del Aprendiz</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Los datos se llenarán dinámicamente -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
