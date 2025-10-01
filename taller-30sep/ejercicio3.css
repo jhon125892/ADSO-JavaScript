@@ -1,0 +1,18 @@
+.kanban {
+  display: flex;
+  gap: 20px;
+}
+.columna {
+  width: 200px;
+  min-height: 300px;
+  padding: 10px;
+  border: 2px dashed #666;
+  border-radius: 10px;
+}
+.tarea {
+  background: lightblue;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: grab;
+}
